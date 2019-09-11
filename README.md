@@ -1,6 +1,6 @@
 Ao vivo em: https://chamadaliteraria.000webhostapp.com/
 
-Website basead em uma conta do Instagram :)
+Website basead em uma conta do Instagram (API) :)
 
 Para que o website funcione você precisa pegar o access_token na plataforma de desenvolvedores do Instagram. 
 
