@@ -1,0 +1,114 @@
+.apiData {
+    background-color: hsl(0, 0%, 96%);
+    margin-top: 5%;
+}
+
+.card {
+    max-width: 400px;
+    min-width: 400px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    -webkit-box-shadow: rgba(39, 44, 49, .07) 8px 28px 50px, rgba(39, 44, 49, .04) 1px 6px 12px;
+    box-shadow: 8px 28px 50px rgba(39, 44, 49, .07), 1px 6px 12px rgba(39, 44, 49, .04);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    -webkit-transform: translate3D(0, -1px, 0) scale(1.02);
+    transform: translate3D(0, -1px, 0) scale(1.02);
+    }
+
+.card-image {
+    object-fit: cover;
+}
+
+.cardsSection {     
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin-top: -15%;
+}
+
+.cardContent {
+    
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 800px;
+}
+
+.Abstract {
+    width: 70%;
+    margin-top: 22%;
+}
+
+.abstractSection {
+    background-color: hsl(0, 0%, 96%);
+    border-top-left-radius: 50px;    
+    border-top-right-radius: 50px;    
+    margin-top: -22%;    
+}
+
+.mainImageAbstract {
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.mainCardImage {
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.mainImage {
+    background-size: contain;
+    pointer-events: none;
+}
+
+.profile{    
+    pointer-events: none;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.navbar-item {
+	font-weight: bold;
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	margin-left: 30px;
+    font-size: 18px;
+  }
+  
+  .navbar-end {
+	margin-right: 30px;	
+  }
+
+  .navbar-item:hover {
+      border-radius: 5px;
+  }
+
+  .instagram {
+      background-color: #FCAF45;
+  }
+
+  @media screen and (max-width:768px) {
+
+    .card {
+        max-width: 300px;
+        min-width: 300px;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+    .first-section {
+        margin-top: 15%;
+    }
+
+    .brand {
+        display: none;
+    }
+
+  } 

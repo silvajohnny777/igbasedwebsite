@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <div id="browserTitle"></div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="./script.js"></script>
+    <script src="./mainInfo.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+
+    <nav class="navbar has-shadow is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a href="./" class="navbar-item">
+          CHAMADA LITERARIA
+        </a>
+      </div>
+      
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+              Sobre nós
+          </a>   
+
+          
+          <a class="navbar-item">
+              Nossos parceiros
+          </a>   
+        </div>
+        <!--
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button instagram">                    
+                <strong>Instagram</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+        -->
+      </div>
+    </nav>       
+
+
+    <div id="selected">
+      <div class="first-section hero is-medium">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <div class="columns is-vcentered has-text-justified">
+              <div class="column is-5">
+                <figure id="profilePic" class="image is-128x128">
+                </figure>
+                <h1 id="pageTitle" class="title is-1">
+                  </h1>
+                  <h3 id="username" class="title is-3 has-text-grey">
+                  </h3>
+                <h3 id="description" class="title is-5 has-text-grey-light">
+                </h3>
+                <div id="followButtonLink">                  
+                </div>
+              </div>
+              <div class="column is-6 is-offset-1">
+                <figure class="brand image is-4by3">
+                  <img class="mainImage" src="./images/bg-girl.svg">
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="apiData">
+        <section class="section">
+          <div class="container">
+            <div id="root" class="cardsSection">
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          Este site foi desenvolvido por <a href="https://instagram.com/silvajohnny777">@J</a> e <a href="https://instagram.com/barboza_thaina">@T</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
