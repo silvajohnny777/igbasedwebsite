@@ -7,3 +7,5 @@ Com seu token em mãos, substitua os valores nos arquivos "mainInfo.js" e "scrip
 COMO DEFINIR OS TÍTULOS?
 
 Simples, quando escrever uma descrição, utilize o caracter "|" para separar o título do resto do conteúdo, dessa forma tudo que estiver à esquerda do "|" será considerado título.
+
+OBSERVAÇÃO MUITO IMPORTANTE: Este projeto ainda está em desenvolvimento e será atualizado constantemente. É por isso que tem as váriáveis em VAR lol :p 
